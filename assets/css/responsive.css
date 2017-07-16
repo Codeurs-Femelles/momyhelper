@@ -1,0 +1,887 @@
+@media screen and (max-width: 1199px) {
+    .student_latter .latter_content {
+        padding: 0px 0px 0px 0px;
+    }
+    .student_latter .latter_content h3 {
+        padding: 0px 0px 20px 0px;
+    }
+    .student_latter {
+        display: flex;
+    }
+    .student_about .col-md-5 {
+        display: flex;
+    }
+    .student_latter .latter_content{
+        flex: 1;
+        align-self: center;
+    }
+    .student_course .studetn_course_box .studetn_course_main_box .studetn_course_contetn .course_rating ul li a {
+        padding: 9px 0px 0px 0px;
+    }
+    .question_area .question_box .carousel.slide .carousel-inner .item .question_contetn {
+        padding: 15px 0px 0px 70px;
+    }
+    .question_area .question_box .carousel.slide .carousel-inner .item .question_contetn h3 {
+        padding-bottom: 15px;
+    }
+    .footer_copyright .copy_right_content {
+        float: none !important;
+        text-align: center;
+        line-height: 60px;
+        margin-bottom: -15px;
+    }
+    .footer_copyright .copy_right_list{
+        float: none !important;
+        text-align: center;
+    }
+    .footer_copyright .copy_right_list ul li a {
+        line-height: 60px;
+    }
+    .slider_area.slider_position .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+        min-height: auto;
+    }
+    .from_blog .student_latter .col-md-5{
+        display: flex;
+    }
+    .latter_content.blog_letter_content h3 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .latter_content.blog_letter_content p {
+        padding-bottom: 15px;
+    }
+/* About Page Responsive
+============================================================================================ */
+    .our_teacher_slider .carousel.slide .left.carousel-control {
+        left: auto;
+        top: -120px;
+        margin-right: 10px;
+        right: 50px;
+    }
+/* Blog Listing Page Responsive
+============================================================================================ */
+    .blog_listing_area .question_area .question_box .carousel.slide .carousel-inner .latter_content.blog_letter_content {
+        padding-left: 0px;
+        padding-right: 15px;
+        padding-top: 50px;
+    }
+    .blog_listing_area .question_area .question_box.question_box_left .carousel.slide .carousel-inner .latter_content.blog_letter_content {
+        padding-left: 30px;
+        padding-right: 0px;
+    }
+/* Comingsoon Page Responsive
+============================================================================================ */
+    .coming-soon-section .coming-soon-left {
+        width: 100%;
+        float: none;
+        flex: none;
+    }
+    .coming-soon-section .coming-soon-right {
+        width: 100%;
+        float: none;
+        background: url("../img/comingsoon/1.jpg") no-repeat scroll center 0;
+        background-size: cover;
+    }
+    .coming-soon-section {
+        display: block;
+    }
+    .coming-soon-section .coming-soon-left .primary-content {
+         float: none; 
+        padding-right: 0px;
+        margin: 50px auto;
+    }
+/* Pricing Page Responsive
+============================================================================================ */
+    .nursary_area .nursary_content_area {
+        padding: 5px 0px 0px 30px;
+    }
+    .nursary_area .nursary_content_area h3 {
+        padding-bottom: 10px;
+    }
+    .nursary_area .nursary_content_area ul {
+        padding: 20px 0px 20px 25px;
+    }
+/* Pricing Page Responsive
+============================================================================================ */
+    .single_blog_main_area .single_blog_content .single_post_pagination .previous {
+        float: none !important;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .single_blog_main_area .single_blog_content .single_post_pagination .next {
+        float: none !important;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1050px) {
+    .slider_area .carousel.slide .carousel-inner .item .carousel-caption{
+        left: 50%;
+        text-align: center;
+        transform: translateX(-50%);
+        top: 5%;
+        display: flex;
+        width: 600px;
+    }
+    .slider_area .carousel.slide .carousel-inner .item .carousel-caption .cpantion_text {
+        flex: 1;
+        align-self: center;
+    }
+    .slider_area .carousel.slide .left.carousel-control{
+        left: 30px;
+    }
+    .slider_area .carousel.slide .right.carousel-control{
+        right: 30px;
+    }
+    .slider_area .carousel.slide .carousel-inner .item .carousel-caption .cpantion_text p{
+        width: 100%;
+    }
+    .slider_area.slider_position .carousel.slide .carousel-inner .item .carousel-caption{
+        top: 28%;
+    }
+    .slider_area.slider_position .carousel.slide .carousel-inner .item .carousel-caption .cpantion_text h2 {
+        font-size: 30px;
+        padding-bottom: 0px;
+    }
+    .slider_area.slider_position .carousel.slide .carousel-inner .item .carousel-caption .cpantion_text p {
+        padding-top: 0px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 26px;
+        padding-bottom: 10px;
+    }
+/*
+    .welcome_fact .welcome_fact_contetn {
+        max-width: 100%;
+    }
+*/
+}
+@media screen and (max-width: 991px) {
+    header + section, header + div, header + .row {
+        margin-top: 75px;
+    }
+    header.menu_position + section, header.menu_position + div, header.menu_position + .row {
+        margin-top: 125px;
+    }
+    .header_main_menu_area .navbar .navbar-collapse .navbar-nav li a i{
+        margin-left: -1px;
+    }
+    .header_main_menu_area .navbar .navbar-collapse .navbar-nav li a{
+        padding: 0px 10px 0px 10px;
+        line-height: 75px;
+    }
+    .header_main_menu_area .navbar .navbar-collapse .navbar-nav li:last-child a{
+        padding: 0px 5px;
+    }
+    .header_main_menu_area .navbar .navbar-header .navbar-brand {
+        padding: 10px 0px;
+    }
+    .header_main_menu_area .navbar .navbar-collapse .navbar-nav li:nth-child(6)::before {
+        top: 15px;
+    }
+    .student_latter {
+        display: block;
+    }
+    .student_about .col-md-5 {
+        display: block;
+    }
+    .student_latter .latter_content{
+        flex: none;
+        align-self: center;
+    }
+    .student_latter .latter_img img {
+        width: 100%;
+    }
+    .student_latter .latter_img {
+        padding-right: 0px;
+        overflow: hidden;
+        border-radius: 15px 15px 0px 0px;
+    }
+    .student_latter .latter_content {
+        padding: 0px 15px 0px 15px;
+    }
+    .student_latter .latter_content h3 {
+        padding: 30px 0px 26px 0px;
+    }
+    .student_latter .latter_content h5 {
+        padding-bottom: 40px;
+    }
+    .top_student .student_name h3 {
+        font-size: 20px;
+    }
+    .student_course .studetn_course_box {
+        max-width: 370px;
+        margin: 85px auto;
+    }
+    .teacher_area .out_teacher {
+        padding-top: 0px;
+    }
+    .teacher_area .out_teacher .single_teacher {
+        max-width: 370px;
+        margin: 80px auto;
+    }
+    .school_gallary .gallery_item .single_item {
+        width: 25%;
+    }
+    .question_area .question_box .carousel.slide .carousel-inner .item .question_img.row {
+         padding-left: 0px; 
+    }
+    .question_area .question_box .carousel.slide .carousel-inner .item .question_contetn {
+        padding: 50px 30px 50px 30px
+    }
+    .question_area .question_box .carousel.slide .carousel-inner .item .question_img img {
+        border-radius: 0px 0px 15px 15px;
+    }.footer_main_area .widget.secand_widget .social_icon ul li {
+        width: 40px;
+    }
+    .footer_main_area .widget.third_widget ul li{
+        max-width: 88px;
+        float: left;
+        overflow: hidden;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+    .footer_main_area .widget{
+        padding-bottom: 50px;
+    }
+    .footer_main_area .widget.third_widget ul li:nth-child(3) {
+        margin-right: 15px;
+    }
+    .question_area .question_box .carousel.slide .left.carousel-control {
+        left: auto;
+        right: -12px;
+    }
+    .question_area .question_box .carousel.slide .right.carousel-control {
+        right: -12px;
+    }
+    
+/* About Page Responsive
+============================================================================================ */
+    .welcome_fact .welcome_fact_contetn{
+        max-height: 150px;
+    }
+    .upcoming_events_area .event_content{
+        max-width: 370px;
+        margin: 30px auto;
+    }
+    .student_latter .latter_content {
+        padding: 35px 15px 35px 15px;
+    }
+    .student_latter .blog_letter_content h3 {
+        padding: 20px 0px 20px 0px;
+    }
+    .tab_main_area {
+        max-width: 570px;
+        margin-top: 80px;
+    }
+    .our_vision {
+        padding: 80px 0px;
+        height: auto;
+    }
+    .our_vision::before {
+        display: none;
+    }
+    .key_count_area .count_item {
+        padding: 40px 0px;
+        max-width: 270px;
+        margin: 60px auto 0px;
+    }
+    .carousel.slide .carousel-inner .item .teacher_slider_main_content .teacher_slider_left {
+        padding-right: 20px;
+    }
+    .carousel.slide .carousel-inner .item .teacher_slider_main_content .teacher_slider_right {
+        padding-left: 30px;
+        padding-right: 0px;
+    }
+    .our_teacher_slider .carousel.slide .carousel-inner .item .teacher_slider_main_content::before {
+        display: none;
+    }
+    .our_teacher_slider .carousel.slide .carousel-inner .item .teacher_slider_main_content::after {
+        display: none;
+    }
+    .our_teacher_slider .carousel.slide .carousel-inner .item .teacher_slider_main_content .teacher_slider_content {
+        padding-bottom: 0px;
+        margin-bottom: 50px;
+    }
+    .carousel.slide .carousel-inner .item .teacher_slider_main_content .teacher_slider_right {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .carousel.slide .carousel-inner .item .teacher_slider_main_content .teacher_slider_left {
+        padding-right: 15px;
+    }
+    .message_box {
+        padding: 46px 15px 130px;
+    }
+    .message_box input {
+        padding-right: 0px;
+    }
+    .form-group {
+        padding-right: 0px;
+    }
+/* Blog Page Responsive
+============================================================================================ */
+    .blog_listing_area .question_area .question_box .carousel.slide .carousel-inner .item .question_img img {
+        border-radius: 15px 15px 0px 0px;
+    }
+    .blog_listing_area .question_area .question_box .carousel.slide .carousel-inner .latter_content.blog_letter_content {
+        padding: 50px 15px;
+    }
+    .blog_listing_area .question_area .question_box.question_box_left .carousel.slide .carousel-inner .item .question_img img {
+        border-radius: 0px 0px 15px 15px;
+    }
+    .blog_listing_area .question_area .question_box .carousel.slide .carousel-inner #question_slider.question_img {
+        position: relative;
+         margin-left: 0px; 
+        padding-left: 0px;
+    }
+    .blog_listing_area .question_area .question_box .carousel.slide .carousel-inner .question_img .owl-stage-outer {
+        border-radius: 15px 15px 0px 0px;
+    }
+    .blog_listing_area .question_area .question_box.question_box_left .carousel.slide .letter_icon {
+        left: auto;
+        top: 15px;
+        right: 15px;
+    }
+/* Contact Page Responsive
+============================================================================================ */
+    .contact_area_box .question_area .question_box .carousel-inner .contact_info_detail {
+        padding: 50px 20px 50px 20px;
+    }
+/* Calendar Page Responsive
+============================================================================================ */ 
+    .calender_main_area {
+        margin-left: 0px; 
+        border-radius: 0px 0px 15px 15px
+    }
+    .calender_content {
+        margin-right: 0px; 
+        border-radius: 15px 15px 0px 0px;
+    }
+/* Full Ui Page Responsive
+============================================================================================ */ 
+    .member_style_are .member_style_content .media .media-body h4 {
+        padding-top: 10px;
+    }
+    .member_style_are .member_style_content .media .media-body p {
+        padding-top: 5px;
+    }
+    .tabs_area .tab_main_area{
+        margin: 80px auto;
+    }
+    .counter_base_are .counter_base_text {
+        margin-bottom: 30px;
+    }
+    .nursary_area .nursary_content_area {
+        padding: 20px 0px 30px 0px;
+    }
+/* Pricing Page Responsive
+============================================================================================ */ 
+    .pricing_area .pricing_table .button_b.pricing_btn {
+        margin: 0px 8px;
+        margin-top: 30px;
+    }
+    .pricing_area .pricing_table ul li a {
+        padding: 0px 8px;
+    }
+/* Single Blog Page Responsive
+============================================================================================ */ 
+    .comment_box.row.m0 .form-group.email {
+        padding-left: 0px;
+    }
+        .comment_box.row.m0 .form-group.name {
+        padding-right: 0px;
+    }
+/* Single Blog Page Responsive
+============================================================================================ */
+    .banner_area.student_list .gallery_filter ul li {
+        padding: 0px 8px;
+        border-left: 0px solid rgba(255, 255, 255, 0.6);
+    }
+/*  Teacher Detail Page Responsive
+============================================================================================ */
+    .teacher_table_area .table-responsive{
+        margin-bottom: 100px;
+    }
+/*  Teachers Page Responsive
+============================================================================================ */
+    .member_style_are .member_style_content .media .media-body h4 {
+        padding-top: 8px;
+    }
+}
+@media screen and (max-width: 767px) {
+/*
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        max-height: 340px;
+    }
+*/
+    .header_main_menu_area .navbar .navbar-collapse .navbar-nav li:last-child {
+        display: none;
+    }
+    
+    header.menu_position + .slider_position {
+        margin-top: 0px;
+    }
+    header.menu_position.affix + section, header.menu_position.affix + div{
+        margin-top: 125px;
+    }
+    header.menu_position + section, header.menu_position + div, header.menu_position + .row {
+        margin-top:0px;
+    }
+    .header_main_menu_area .navbar.navbar-default .navbar-header .navbar-toggle{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-color: $baseColor;
+    }
+    .header_main_menu_area .navbar .navbar-collapse .navbar-nav li {
+        margin-right: 0px;
+    }
+    .header_main_menu_area .navbar .navbar-collapse .navbar-nav li:nth-child(6)::before {
+        display: none;
+    }
+    .header_main_menu_area .navbar .navbar-collapse .navbar-nav li a {
+        padding: 0px 15px 0px 15px;
+        line-height: 50px;
+    }
+    .header_main_menu_area .navbar .navbar-collapse .navbar-nav li:last-child a {
+        padding: 0px 15px 0px 15px;
+    }
+    .header_main_menu_area .navbar .navbar-collapse .navbar-nav li a i {
+        margin-left: 5px;
+    }
+    .question_area .question_box .carousel.slide .letter_icon {
+        right: 15px;
+        top: 15px;
+    }
+    .question_area .question_box .carousel.slide .left.carousel-control {
+        top: 40%;
+        left: 15px;
+        right: auto;
+        transform: translateY(-50%);
+    }
+    .question_area .question_box .carousel.slide .right.carousel-control {
+        top: 40%;
+        transform: translateY(-50%);
+        right: 15px;
+    }
+    .slider_area .carousel.slide .carousel-inner .item .carousel-caption{
+        width: auto;
+        left: 54%;
+    }
+    .slider_area .carousel.slide .carousel-inner .item .carousel-caption .cpantion_text h2 {
+        font-size: 30px;
+        padding-bottom: 22px;
+    }
+    .slider_area .carousel.slide .carousel-inner .item .carousel-caption .cpantion_text p {
+        width: 100%;
+        padding-top: 0px;
+        font-size: 18px;
+        line-height: 30px;
+        padding-bottom: 20px;
+        text-shadow: none;
+    }
+    .header_main_menu_area.header_top{
+        position: relative;
+    }
+    .slider_area.slider_position .carousel.slide .carousel-inner .item .carousel-caption {
+        top: 5%;
+    }
+    .student_latter .letter_icon {
+        right: 10px;
+        top: 10px;
+    }
+/* Comingsoon Page Responsive
+============================================================================================ */
+    .coming-soon-section .coming-soon-left .primary-content {
+        float: none; 
+        padding: 0px 15px;
+        margin: 50px auto;
+        width: 100%;
+    }
+    .coming-soon-section .coming-soon-left .primary-content .timer .countdown .countdown_row .countdown_section .countdown_amount {
+        padding: 0px 15px 15px;
+    }
+    .coming-soon-section .coming-soon-left .primary-content .timer .countdown .countdown_row .countdown_section {
+        display: table-cell;
+        width: 1%;
+    }
+/* Full Ui Page Responsive
+============================================================================================ */
+    .teacher_detail_area .single_teacher_box {
+        max-width: 370px;
+        margin: 0 auto 30px;
+    }
+    .key_count_area.white_prefomance .count_item {
+         margin: 60px auto 0px;
+    }
+    .member_style_are .member_style_content .media .media-body h4 {
+        padding-top: 35px;
+    }
+/* Pricing Page Responsive
+============================================================================================ */ 
+    .pricing_area .pricing_table .button_b.pricing_btn {
+        margin: 0px 25px;
+        margin-top: 30px;
+    }
+    .pricing_area .pricing_table ul li a {
+        padding: 0px 25px;
+    }
+    .pricing_area .pricing_table {
+        margin: 0 auto 30px;
+        max-width: 360px;
+    }
+    .pricing_area {
+        padding: 90px 0px 60px;
+    }
+/* Pricing Page Responsive
+============================================================================================ */
+    .product_main_list .tab-content .tab-pane .single_product {
+        max-width: 270px;
+        margin: 30px auto;
+    }
+/*  Teacher Detail Page Responsive
+============================================================================================ */
+    .teacher_bio_area .media {
+        display: block;
+    }
+    .teacher_bio_area .media .media-body {
+         display: inline-block; 
+        width: 100%;
+        padding: 30px 20px 30px 15px;
+    }
+    .counter_base_text {
+        margin-bottom: 40px;
+    }
+    .teacher_table_area .table-responsive .table tbody tr td {
+        padding-right: 10px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .question_area .question_box .carousel.slide .left.carousel-control {
+        top: auto;
+        left: 15px;
+        right: auto;
+        transform: translateY(-50%);
+        bottom: 25%;
+    }
+    .question_area .question_box .carousel.slide .right.carousel-control {
+        top: auto;
+        transform: translateY(-50%);
+        right: 15px;
+        bottom: 25%;
+    }
+    .instagram_area a {
+        line-height: 30px;
+        width: 130px;
+    }
+    .scroll {
+        right: 15px;
+    }
+/* Single Blog Page Responsive
+============================================================================================ */
+    .banner_area.single_blog_banner .banner_content h3{
+        font-size: 24px;
+    }
+    .banner_area.single_blog_banner .banner_content h5 span{
+        margin-right: 8px;
+        font-size: 16px;
+    }
+/* Single Blog Page Responsive
+============================================================================================ */
+    .banner_area.student_list .gallery_filter ul li {
+        padding: 0px 8px;
+        margin-bottom: 15px;
+        border-left: 0px solid rgba(255, 255, 255, 0.6);
+    }
+    .student_member_area .top_student .single_item {
+        width: 50%;
+    }
+}
+@media .slider_area .carousel.slide .carousel-inner .item .carousel-caption .cpantion_text a {
+    header.menu_position.affix + section, header.menu_position.affix + div{
+        margin-top: 150px;
+    }
+    .school_gallary .gallery_item .single_item {
+        width: 33.33%;
+    }
+    .testimonial_area .testimonial_slider .carousel.slide .carousel-inner .item h3{
+        font: 300 48px/58px "Roboto", sans-serif;
+    }
+    .slider_area .carousel.slide .carousel-inner .item .carousel-caption .cpantion_text h2 {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    .slider_area .carousel.slide .carousel-inner .item .carousel-caption img{
+        width: 70%;
+    }
+    .slider_area .carousel.slide .carousel-inner .item .carousel-caption .cpantion_text p {
+        font-size: 15px;
+        line-height: 22px;
+        padding-bottom: 18px;
+    }
+    .slider_area .carousel.slide .carousel-inner .item .carousel-caption .cpantion_text a {
+    margin-right: 267px;
+    line-height: 22px;
+    font-size: 12px;
+    padding: 0px 20px;
+}
+    .slider_area .carousel.slide .carousel-inner .item .carousel-caption{
+        left: 50%;
+    }
+    .header_one .contact_ifo{
+        float: none !important;
+        text-align: center;
+    }
+    .header_one .login_are{
+        float: none !important;
+        text-align: center;
+    }
+/*
+    .tab_main_area {
+        max-width: 100%;
+        margin-top: 80px;
+    }
+*/
+    .tab_main_area .tab-content .tab-pane img {
+        height: 230px;
+    }
+    .tab_main_area .tab_menu_area .nav.nav-tabs li a {
+        padding: 0px 12px;
+        line-height: 36px;
+    }
+    .tab_main_area .tab_menu_area .nav.nav-tabs {
+        padding: 0px 0px; 
+    }
+    .tab_main_area .tab_menu_area {
+        top: 48.5%;
+    }
+/* Comingsoon Page Responsive
+============================================================================================ */
+    .our_course_listing_content .listing_title {
+        margin-bottom: 30px;
+    }
+/* Course Listing Page Responsive
+============================================================================================ */
+    .student_course .studetn_course_box .studetn_course_main_box .studetn_course_contetn h3 {
+        font-size: 24px;
+    }
+/* Calendar Page Responsive
+============================================================================================ */
+    .calender_content {
+        padding: 50px 20px 50px 20px;
+    }
+    .calender_main_area .year {
+        padding-bottom: 25px;
+        padding-right: 0;
+    }
+    .calender_main_area {
+        padding: 30px 20px 30px 20px;
+    }
+/* Calendar Page Responsive
+============================================================================================ */
+    .single_blog_main_area .single_blog_content .tags_area .tage_button{
+        float: none !important;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .single_blog_main_area .single_blog_content .tags_area .view_content{
+        float: none !important;
+        text-align: center;
+    }
+    .single_blog_main_area .single_blog_content .tags_area .view_content a:first-child{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .tab_main_area .tab_menu_area {
+        top: 212px;
+    }
+    .tab_main_area .tab-content .tab-pane .tab_text {
+        padding: 50px 35px 35px 35px;
+    }
+    .blog_listing_area .question_area .question_box.question_box_left .carousel.slide .carousel-inner .latter_content.blog_letter_content {
+        padding: 70px 15px 60px;
+    }
+/* Comingsoon Page Responsive
+============================================================================================ */
+    .coming-soon-section .coming-soon-left .primary-content .timer .timer-width .form-input {
+        width: 100%;
+        float: none;
+        margin-right: 0px;
+    }
+    .coming-soon-section .coming-soon-left .primary-content .timer .timer-width .form-button .button_b {
+        margin-top: 20px;
+    }
+/* Single Blog Page Responsive
+============================================================================================ */
+    .post_author_area .media .media-left {
+        padding-right: 0px;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .footer_copyright .copy_right_list ul li a {
+        line-height: 22px;
+        font-size: 11px;
+        padding: 0px 5px;
+    }
+    .footer_copyright .copy_right_content {
+        line-height: 22px;
+        margin-bottom: 0px;
+        padding: 15px 0px;
+    }
+    .footer_copyright .copy_right_list {
+        margin-bottom: 15px;
+    }
+    .slider_area .carousel.slide .carousel-inner .item .carousel-caption .cpantion_text p{
+        display: none;
+    }
+    .slider_area .carousel.slide .left.carousel-control {
+        left: 10px;
+    }
+    .slider_area .carousel.slide .right.carousel-control {
+        right: 10px;
+    }
+    .banner_area .banner_content h3 {
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .banner_area .banner_content p {
+        font-size: 15px;
+        padding: 0px 10px;
+    }
+    .tab_main_area .tab_menu_area .nav.nav-tabs li {
+        margin-right: 0px;
+    }
+    .tab_main_area .tab_menu_area .nav.nav-tabs li a{
+        margin: 0px;
+    }
+    .tab_main_area .tab_menu_area {
+        top: 194px;
+    }
+    .tab_main_area .tab_menu_area .nav.nav-tabs li {
+        margin-bottom: 8px;
+    }
+/* Comingsoon Page Responsive
+============================================================================================ */
+    .coming-soon-section .coming-soon-left .primary-content .timer .countdown .countdown_row .countdown_section {
+        border: none;
+    } 
+    .coming-soon-section .coming-soon-left .primary-content .timer .countdown .countdown_row .countdown_section:first-child {
+        border: none;
+    }
+    .coming-soon-section .coming-soon-left .primary-content .timer .countdown .countdown_row .countdown_section .countdown_amount {
+        font: 300 30px/30px "Roboto", sans-serif;
+    }
+    .coming-soon-section .coming-soon-left .primary-content .timer .countdown .countdown_row .countdown_section .countdown_amount {
+        padding: 0px 10px 8px;
+    }
+/* Calendar Page Responsive
+============================================================================================ */
+    .calender_main_area .day ul li {
+        display: inline-block;
+        margin-right: 5px;
+    }
+    .calender_main_area .month ul li {
+        display: inline-block;
+        margin-right: 5px;
+    }
+/* Single Blog Page Responsive
+============================================================================================ */
+    .comment_content_area .single_comment .media .media-left {
+        padding-right: 0px;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .comment_content_area .single_comment.reply_comment .media {
+        padding-left: 20px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .top_student .col-xs-6{
+        width: 100%;
+    }
+    .title h2 {
+        font-size: 30px;
+    }
+    .title p {
+        padding: 20px 15px 0px 15px;
+    }
+    .slider_area.slider_position .carousel.slide .carousel-inner .item .carousel-caption .cpantion_text h2 {
+        font-size: 24px;
+    }
+    .teacher_area .out_teacher .single_teacher .teacher_content {
+        top: 20%;
+    }
+    .slider_area .carousel.slide .left.carousel-control {
+        width: 40px;
+        height: 40px;
+    }
+    .slider_area .carousel.slide .left.carousel-control span {
+        font-size: 15px;
+        padding-right: 0;
+        padding-left: 3px;
+    }
+    .slider_area .carousel.slide .right.carousel-control {
+        width: 40px;
+        height: 40px;
+    }
+    .slider_area .carousel.slide .right.carousel-control span {
+        font-size: 15px;
+        padding-left: 0;
+        padding-right: 3px;
+    }
+/* Comingsoon Page Responsive
+============================================================================================ */
+    .construction .content-wrapper h2 {
+	    font: 300 100px "Roboto", sans-serif;
+    }
+/* Course Listing Page Responsive
+============================================================================================ */
+    .student_course .studetn_course_box .studetn_course_main_box .studetn_course_contetn h3 {
+        font-size: 24px;
+    }
+/* Event Listing Page Responsive
+============================================================================================ */ 
+    .our_course_listing_content .listing_title h2 {
+        font-size: 35px;
+    }
+/* Full Ui Page Responsive
+============================================================================================ */
+    .banner_area.full_ui .banner_content h3 {
+        font-size: 40px;
+        padding-bottom: 5px;
+    }
+    .banner_area.full_ui .banner_content p {
+        font-size: 24px;
+    }
+    .member_style_are .member_style_content .media .media-body h4 {
+        padding-top: 10px;
+    }
+    .member_style_are .member_style_content .media .media-left {
+        display: inline-block;
+    }
+    .member_style_are .member_style_content .media .media-body {
+        padding: 15px;
+    }
+    header .header_main_menu_area .header_one .contact_ifo a + a {
+        padding-left: 5px;
+    }
+    header .header_main_menu_area .header_one .contact_ifo a {
+        padding: 0px 5px;
+    }
+    .banner_area.single_blog_banner .banner_content h3{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+/* Single Blog Page Responsive
+============================================================================================ */
+    .comment_box.row.m0 .btn.btn-default.button_b {
+        padding: 0px 50px;
+    }
+    /* Single Blog Page Responsive
+============================================================================================ */
+    .student_member_area .top_student .single_item {
+        width: 100%;
+    }
+}

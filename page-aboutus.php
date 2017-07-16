@@ -13,56 +13,12 @@ Template Name: about us
         <section class="our_vision">
             <div class="container">
                 <div class="row">
-                	<div class="col-md-6">
-                        <div class="tab_main_area">
-                            <div class="tab-content">
-                                <div role="tabpanel" class="tab-pane active" id="home">
-                                    <img src="<?php echo ASSETS_URI ?>img/about.png" alt="">
-                                    <div class="tab_text">
-                                        <p></p>
-                                    </div>
-                                </div>
-                                <div role="tabpanel" class="tab-pane" id="profile">
-                                    <img src="img/room1.jpg" alt="">
-                                    <div class="tab_text">
-                                        <p></p>
-                                    </div>
-                                </div>
-                                <div role="tabpanel" class="tab-pane" id="messages">
-                                    <img src="img/room1.jpg" alt="">
-                                    <div class="tab_text">
-                                        <p></p>
-                                    </div>
-                                </div>
-                                <div role="tabpanel" class="tab-pane" id="settings">
-                                    <img src="img/room1.jpg" alt="">
-                                    <div class="tab_text">
-                                        <p>Ut cursus massa at urnaaculis estie. Sed aliquamellus vitae ultrs condmentum leo massa mollis estiegittis miristum nulla sed fringilla Donec vitae orci dignissim faucibus tellus volutpat.</p>
-                                        <p>Honcus leomassa at urnaaculis estie. Sed aliquamellus vitae ultrices condimentum, leo massa mollis estiegittis miristum nulla.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--<div class="tab_menu_area">
-                                <ul class="nav nav-tabs" role="tablist">
-                                    <li role="presentation" class="active"><a href="about.html#home" aria-controls="home" role="tab" data-toggle="tab">INSIDE</a></li>
-                                    <li role="presentation"><a href="about.html#profile" aria-controls="profile" role="tab" data-toggle="tab">Classs Room Facility</a></li>
-                                    <li role="presentation"><a href="about.html#messages" aria-controls="messages" role="tab" data-toggle="tab">OUTSIDE</a></li>
-                                    <li role="presentation"><a href="about.html#settings" aria-controls="settings" role="tab" data-toggle="tab">QUALITY TOYS</a></li>
-                                </ul>
-                            </div>-->
-                        </div>
-                    </div>
-                    <div class="col-md-6">
+                	
+                    <div class="col-md-12">
                         <div class="our_vision_content">
                             <h3>رؤيتنا</h3>
-                            <p>تطبيق للهواتف النقالة يقدم للأمهات العربيات الاستشارات النفسية والتربوية والسلوكية مع باقة من أخصائيين واستشاريين متميزين من مختلف الدول العربية بأسعار مناسبة ، كما يدعم الأم العربية من خلال تقديم محتوى مميز ومختلف من المقالات والفيديوهات التي تفيد الأم العربية<a href=""> </a></p>
-                          <!--  <ul>
-                                <li><a href="about.html#"><i class="mdi mdi-checkbox-marked"></i>Duis aute irure consequat.</a></li>
-                                <li><a href="about.html#"><i class="mdi mdi-checkbox-marked"></i>Dolor in reprehenderit</a></li>
-                                <li><a href="about.html#"><i class="mdi mdi-checkbox-marked"></i>In voluptate velit esse cillum</a></li>
-                                <li><a href="about.html#"><i class="mdi mdi-checkbox-marked"></i>Dolore eu fugiat nulla pariatur</a></li>
-                                <li><a href="about.html#"><i class="mdi mdi-checkbox-marked"></i>Lorem ipsum dolor sit amet </a></li>
-                            </ul>-->
+<p>شركة مامي هيلبر تسعى لإحداث تغيير في عالم الأمومة والتربية لنجعل من تجربة الأمومة تجربة ممتعة ومميزة من خلال حل المشاكل التي تعاني منها الأمهات العربيات من خلال خطوات بسيطة تستطيع أي أم من خلال تطبيق مامي هيلبر حجز موعد مع باقة من استشاريينا التربويين والسلوكيين الذين هم على أهبة الاستعداد لدعم الأمهات وتقديم جلسات استشارية أون لاين، يسعى فريق مامي هيلبر لتقديم محتوى عربي قيم ومميز للأمهات العربيات من خلال النصائح القصيرة والمقالات والفيديوهات</p>
+                      
                         </div>
                     </div>
                     
@@ -101,15 +57,15 @@ Template Name: about us
                             <div class="row m0 student_name">
                                 <img class="img-circle" src="<?php echo ASSETS_URI ?>img/nour.png" alt="">
                                 <h3>نور الخضري</h3>
-                                <p>مديرة الفريق</p>
+                                <p>المدير التنفيذي</p>
                             </div>
                         </div>
 
                         <div class="col-sm-6 col-md-4">
                             <div class="row m0 student_name">
-                                <img class="img-circle" src="<?php echo ASSETS_URI ?>img/rawand.png" alt="">
-                                <h3>روند بدران</h3>
-                                <p>محررة محتوى</p>
+                                <img class="img-circle" src="<?php echo ASSETS_URI ?>img/mona.jpeg" alt="">
+                                <h3>منى أبو ندى</h3>
+                                <p>منسقة سوشيال ميديا</p>
                             </div>
                         </div>
                        
@@ -124,9 +80,24 @@ Template Name: about us
                         
                          <div class="col-sm-6 col-md-4">
                             <div class="row m0 student_name">
-                                <img class="img-circle" src="<?php echo ASSETS_URI ?>img/M-qamar.png" alt="">
-                                <h3>محمود أبو قمر</h3>
-                                <p>مصمم</p>
+                                <img class="img-circle" src="<?php echo ASSETS_URI ?>img/mhmd.jpeg" alt="">
+                                <h3>محمد العرقان</h3>
+                                <p>مصمم جرافيك</p>
+                            </div>
+                        </div>
+
+			<div class="col-sm-6 col-md-4">
+                            <div class="row m0 student_name">
+                                <img class="img-circle" src="<?php echo ASSETS_URI ?>img/alyaa.jpeg" alt="">
+                                <h3>علياء عثمان</h3>
+                                <p>مدير محتوى</p>
+                            </div>
+                        </div>
+			<div class="col-sm-6 col-md-4">
+                            <div class="row m0 student_name">
+                                <img class="img-circle" src="<?php echo ASSETS_URI ?>img/alaa.jpeg" alt="">
+                                <h3>آلاء اسعيد</h3>
+                                <p>محررة محتوى</p>
                             </div>
                         </div>
                     </div>
