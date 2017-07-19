@@ -50,17 +50,17 @@ Table of Content:
 
     font-family: Cairo;
     src: url(Cairo-Regular.otf);}
-    
+
 
 
 
 /*  font-family: "sharg";
- 
+
   src: url("../fonts/ShragScript.woff");
 */
   /*  font-family: "NEOSANSARABIC";
     src: url("../fonts/NEOSANSARABIC.TTF");*/
-    
+
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
@@ -101,6 +101,68 @@ body , h1 ,h2,h3,h4,h5,h6,p,a {
     background: #f5f5f5;
     margin-top:110px;
 }
+
+
+/******************header sectio**********************/
+.test {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+.test .cont-wrp img.mob {
+    max-width: 70%;
+}
+
+.test .background {
+    height: 100vh;
+    width: 100%;
+}
+
+.test .cont-wrp {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.test .cont-wrp .log{
+  width: 100px;
+}
+.test .cont-wrp .left-cont,
+.test .cont-wrp .right-cont{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.test .cont-wrp .left-cont{
+  background-color: rgba(255,255,255,0.7);
+
+}
+
+.test .cont-wrp .left-cont-wrp,
+.test .cont-wrp .right-cont-wrp{
+  height: 100vh;
+}
+
+
+@media (max-width: 767px){
+  .test .background {
+    height: 70vh;
+    width: 100%;
+    margin-top: 30%;
+  }
+}
+
+
+
+
+
+
+/***********************************/
 
 /* End Section Title css
 ============================================================================================ */
@@ -719,7 +781,7 @@ header.menu_position + .slider_position {
 }
 
 .header_main_menu_area .navbar .navbar-collapse .navbar-nav li a {
-    
+
     margin-right: -87px;
        line-height: 45px;
 }
@@ -887,7 +949,7 @@ margin-left: 75px;
 }
 .student_latter .latter_img img {
   max-width: 100%;
-      
+
 }
 .student_latter .latter_content {
   padding: 0px 0px 0px 35px;
@@ -1170,7 +1232,7 @@ margin-left: 75px;
     width: 33%;
 
 }*/
-.cover-button {  
+.cover-button {
 float: right;
 text-align: right;
 margin-left: 836px;
@@ -1982,7 +2044,7 @@ display: inline-block;
 
 .member_style_are.teachers_listing_area {
   /*border-bottom: 20px solid #da5582;*/
-  padding: 116px 0px; 
+  padding: 116px 0px;
   margin-top:110px;
 }
 .member_style_are.teachers_listing_area .title {
@@ -5210,7 +5272,7 @@ margin-right: 37px;
   font-size: 12px;
 }
 .footer_copyright {
-  
+
     border-top: 1px solid #da5582;
 }
 .footer_copyright .copy_right_list ul li {

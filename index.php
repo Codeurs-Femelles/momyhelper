@@ -2,35 +2,53 @@
 <title>مامي هيلبر </title>
 
          <!--==========Header slider==========-->
-         <div class="slider_area slider_position">
+         <!-- <div class="slider_area slider_position">
             <div id="main_slider" class="carousel slide" data-ride="carousel">
-                <!-- Wrapper for slides -->
+
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
                         <img src="<?php echo ASSETS_URI ?>img/mom-cover.jpeg" alt="...">
                         <div class="carousel-caption">
-			
+
  <div ><a class="first-button" href="https://goo.gl/m5MrKb" target="_blank ?>" ></a></div>
-                <div class="cpantion_text">      
-           
+                <div class="cpantion_text">
+
            <a class="cover-button" href="https://goo.gl/m5MrKb" target="_blank ?>" ></a>
                             </div>
                         </div>
                     </div>
-            
+
                 </div>
 
-                <!-- Controls -->
-               <!-- <a class="left carousel-control" href="index2.html#main_slider" role="button" data-slide="prev"> -->
-                   <!-- <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
-                    <span class="sr-only">Previous</span>
+                <span class="sr-only">Previous</span>
                 </a>
-                <!-- <a class="right carousel-control" href="index2.html#main_slider" role="button" data-slide="next"> -->
-                   <!-- <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
-                    <span class="sr-only">Next</span>
+                <span class="sr-only">Next</span>
                 </a>
             </div>
-         </div>
+         </div> -->
+
+         <section class="test">
+           <div class="container">
+             <img class="background img-responsive" src="img/mom.png" alt="">
+             <div class="row cont-wrp">
+               <div class="col-xs-offset-2 col-xs-6 left-cont-wrp">
+                 <div class="left-cont">
+                   <img class="log" src="img/log.png" alt="">
+                   <h1>Hello world</h1>
+                   <a href="javascript:;" class="btn btn-primary">button 1</a>
+                 </div>
+               </div>
+               <div class="col-xs-4 right-cont-wrp">
+                 <div class="right-cont">
+                   <img class="mob" src="img/moblie.png" alt="">
+                   <div class="btn-wrp">
+                     <a href="javascript:;" class="btn btn-primary">button 2</a>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </section>
          <!--==========End Header slider==========-->
 
          <!--==========From The Blog==========-->
@@ -58,7 +76,7 @@
                         <a  href="<?php the_permalink(); ?>"> <img class="img-responsive" <?php the_post_thumbnail(); ?>  </a>
                         </div>
                     </div>
-                
+
 
 
                 <?php   }
@@ -78,8 +96,7 @@
         <!--==========End From The Blog==========-->
 
 
-         
+
 
 
       <?php get_footer(); ?>
-
